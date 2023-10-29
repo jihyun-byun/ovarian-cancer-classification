@@ -1,1 +1,10 @@
-# ovarian-cancer-classification
+# A Wavelet-based Method for Early Detection of Ovarian Cancer
+## Overview
+Detecting early-stage ovarian cancer accurately and efficiently is crucial for timely treatment. Various methods for early diagnosis have been explored, including a focus on features derived from protein mass spectra, but these tend to overlook the complex interplay across protein expression levels. We propose an innovative method to automate the search for diagnostic features in these spectra by analyzing their inherent scaling characteristics. We compare two techniques for estimating the self-similarity in a signal using its wavelet packet decomposition. The methods are applied to the mass spectra using a rolling window approach, yielding a collection of self-similarity indexes that capture protein interactions, potentially indicative of ovarian cancer. Then, the most discriminatory scaling descriptors from this collection are selected for use in classification algorithms. To assess their effectiveness for early diagnosis of ovarian cancer, the techniques are applied to two datasets from the American National Cancer Institute. Comparative evaluation against an existing wavelet-based method shows that one wavelet packet-based technique led to improved diagnostic performance for one of the analyzed datasets. This highlights the potential of wavelet packet-based methods to capture novel diagnostic information related to ovarian cancer. This innovative approach offers promise for better early detection and improved patient outcomes in ovarian cancer.
+
+## Dataset
+Project data is available at the [American National Cancer Institute Internet Repository](https://home.ccr.cancer.gov/ncifdaproteomics/ppatterns.asp). 
+Two datasets namely `Ovarian 4-3-02` (_100 cases and 100 controls_) and `Ovarian 8-7-02` (_162 cases and 91 controls_) were used to validate the proposed modality. Each protein mass spectra consists of the intensities of 15,153 peptides defined by their mass-to-charge ratio (i.e. the ratio of molecular weight to electrical charge) (M/z).
+
+
+**Note:** The original manuscript is available [here](https://doi.org/10.48550/arXiv.2207.07028).
