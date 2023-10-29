@@ -4,7 +4,7 @@ Detecting early-stage ovarian cancer accurately and efficiently is crucial for t
 
 ## Dataset
 Project data is available at the [American National Cancer Institute Internet Repository](https://home.ccr.cancer.gov/ncifdaproteomics/ppatterns.asp). 
-Two datasets namely `Ovarian 4-3-02` (_100 cases and 100 controls_) and `Ovarian 8-7-02` (_162 cases and 91 controls_) were used to validate the proposed modality. Each protein mass spectra consists of the intensities of 15,153 peptides defined by their mass-to-charge ratio (i.e. the ratio of molecular weight to electrical charge) (M/z).
+Two datasets namely `Ovarian 4-3-02` (_100 cases and 100 controls_) and `Ovarian 8-7-02` (_162 cases and 91 controls_) were used to validate the proposed modality. Each protein mass spectra consists of the intensities of 15,153 peptides defined by their mass-to-charge ratio (i.e. the ratio of molecular weight to electrical charge) (m/z).
 
 
-**Note:** The original manuscript is available [here](https://doi.org/10.48550/arXiv.2207.07028).
+**Note:** The original manuscript is available [here](https://).
